@@ -1,0 +1,16 @@
+<html>
+</html>
+<script>
+var a = [10,-2,4,92,59,-32];
+var max = get_max(a);
+
+console.log(max);
+function get_max(a){
+var max = a[0];
+for (var i = 0; i < a.length; i++) {
+if (max < a[i]) max = a[i];
+}
+
+return max;
+}
+</script>
